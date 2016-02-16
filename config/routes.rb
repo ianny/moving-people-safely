@@ -12,5 +12,8 @@ Rails.application.routes.draw do
     resource :pdf, only: :show
   end
   resource :escort, only: %i[ index create ]
-  root to: 'escorts#index'
+  resource :home_page, path: '/', only: %i[ show ] do
+    post :search
+  end
+  root to: 'home_pages#show'
 end
