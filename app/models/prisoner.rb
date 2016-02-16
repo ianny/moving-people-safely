@@ -7,4 +7,8 @@ class Prisoner < ActiveRecord::Base
   def full_name
     [family_name, forenames].join(', ')
   end
+
+  def formatted_date_of_birth
+    date_of_birth&.strftime('%d/%m/%Y')
+  end
 end
