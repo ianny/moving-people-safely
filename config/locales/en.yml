@@ -15,50 +15,68 @@ en:
           title: Risks to self
           help_text: Is this individual at risk of sucide or self-harm?
           details_help_text: 
-          - Give details of any incident of attempted suicide or self-harm, including the method, circumstances, date and triggers.
-          - Give details on any incident where the individual threated to commit suicide or self harm, including the cirucmstances, date and triggers around the incident and the method threatened.
-          - Give details if indiivual is / has recently been on an open ACCT Plan, or has had any PNC warning markers for suicide / self-harm in last six months
-          - Give details of any other reason which may indiciate a risk of suicide or self-harm (including whether an indiivuals cases involve an offence against a family member, is an unexpected recall, exhbits bizzare behaviour)
+          Give details of any incident of attempted or threatened suicide or self-harm, including the method, circumstances, date and triggers.
+          Give details if this individual is or has recently been on an open ACCT Plan, or has had any PNC warning markers for suicide or self-harm in last six months.
+          Give details of any other reason which may indicate a risk of suicide or self-harm, including whether an individual's cases involve an offence against a family member or is an unexpected recall.
         to_others:
           title: Risks to others
-          help_text: Help copy lorem ipsum dolor
-          details_help_text: Give the details of risk, including incidents, behaviour and triggers
+          help_text: Is this individual a risk to others?
+          details_help_text:  
+          Give details of any risks this individual poses to others, including specific individuals or groups that might be at risk (such as women, children, minority and ethnic groups and Police/Prison/Private Contractors).      	
+          Give details of any evidence that this individual poses a risk to others, including specific incidents, what happened, and the date, circumstances, and triggers of each incident.
+          Give details of any risks the individual poses to others if placed in a shared cell (consult Cell Sharing Risk Assessments where available).
         violence:
           title: Violence
           help_text: Does this individual have any relevant history of violence, actual or threatened?
-          details_help_text: - Give details of any incident of violence, actual or threatened, including the method, date, circumstances and triggers.
-          - Give details of any risk of violence to specific groups such as women/children/minority ethnic groups and Police/Prison/Private contractors.
-          -Give details on any known risks that the indiivdual may pose to others if shared into shared cellular accomodation (consult any existing Cell Sharing Risk Assessments)
-          the details of risk, including incidents, behaviour and triggers
+          details_help_text:
+          Give details of any incident of violence, actual or threatened, including the method, date, circumstances and triggers.
+          Give details of any risk of violence to specific groups such as women/children/minority ethnic groups and Police/Prison/Private contractors.
+          Give details of any known risks that the individual may pose to others if placed in a shared cell (consult Cell Sharing Risk Assessments where available)
         from_others:
           title: Risk from others
-          help_text: Help copy lorem ipsum dolor
-          details_help_text: Give the details of risk, including incidents, behaviour and triggers
+          help_text: Is this individual at risk from others?
+          details_help_text: 
+          Give details of the type of harm this individual may be at risk from, including whether physical or verbal harm.
+          Give the details of any evidence that this individual is at risk from others, including any history of bullying, any intelligence of threats against the individual, or any press interest.
+          Give details on any specific individuals or groups that this individual is at risk from.
+          Give details if this individual's charge or offence might place them at risk from others.
         escape:
           title: Escape risk
           help_text: Is this individual an escape risk? 
-          details_help_text: - Give details of any history of escape attempts (including the method, circumstances and triggers of the escape)
-          - Give details of any intelligence that suggests an escape attempt is likely (including any known method and circumstances)
-          - Give details if this individual is on the prison 'E list'
+          details_help_text: 
+          Give details of any history of escape attempts (including the method, circumstances, date and triggers of each escape).
+          Give details of any intelligence that suggests an escape attempt is likely (including any known method and circumstances).
+          Give details if this individual is on the prison 'E list'.
+        intolerant_behaviour:  
           title: Intolerant behavior
-          help_text: Help copy lorem ipsum dolor
-          details_help_text: Give the details of risk, including incidents, behaviour and triggers
+          help_text: Does this individual have any history of intolerant behaviour such as sexism, homophobia or racism?
+          details_help_text: 
+          Give details of any incident in which this individual has shown intolerances such as sexism, homophobia or racism, including the method, circumstances, date and triggers.
+          Give details if this individual has a charge or historical offence which suggests intolerance, such as an offence which is homophobic or racially motivated. 
         prohibited_items:
           title: Prohibited items
-          help_text: Help copy lorem ipsum dolor
-          details_help_text: Give the details of risk, including incidents, behaviour and triggers
+          help_text: Is there a possibility of this individual carrying concealed weapons or prohibited items?
+          details_help_text: 
+          Give details of the prohibited items that this individual may be carrying, such as specific weapons or drugs.
+          Give details of any type of weapon that this individual has been known to carry, the make, and how they may have obtained it
+          Give details of any history of carrying concealed weapons, drugs or other prohibited items, including details of the item, circumstances, dates and triggers. 
+          Give details of any intelligence that this individual may attempt to carry prohibited items.
         disabilities:
           title: Disabilities
-          help_text: Help copy lorem ipsum dolor
-          details_help_text: Give the details of risk, including incidents, behaviour and triggers
+          help_text: Does the individual have any disabilities?
+          details_help_text: Give the details of each individual disability, including the extent of their disability.
+          Is this individual visually or hearing impaired?  Give details of the extent of their impairment.
+          Give details of any needs the individual has in relation to their disability.
         allergies:
           title: Allergies
-          help_text: Help copy lorem ipsum dolor
-          details_help_text: Give the details of risk, including incidents, behaviour and triggers
+          help_text: Does this individual have any allergies?
+          details_help_text: 
+          Give details of each of these individuals allergies, including the severity and triggers.
+          Give detail of any medication this individual needs in relation to their allergies, and when these are required.    
         non_association:
           title: Non-association
-          help_text: Help copy lorem ipsum dolor
-          details_help_text: Give the details of risk, including incidents, behaviour and triggers
+          help_text: Does this individual have any non-association markers, or are there any reasons why this individual should not come into contact with a particular individual?
+          details_help_text: Give details of any individual that this individual should not associate with, including the reasons for non-association (check systems for any non-association markers). 
       labels:
         clear: Clear selection
   flash:
